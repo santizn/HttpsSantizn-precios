@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santizn$ Precios</title>
+    <style>
+        body {
+            background: #0d0d0d;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #00ff88;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #fff;
+            margin: 0 0 10px 0;
+            font-size: 18px;
+        }
+        .subtitle {
+            color: #aaa;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .card {
+            background: #1a1a1a;
+            border-radius: 12px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .tag {
+            background: #00ff88;
+            color: #000;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0;
+            font-size: 15px;
+        }
+        .price {
+            color: #00ff88;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Santizn$ ventas</h1>
+    <p class="subtitle">Precios</p>
+
+    <!-- CUBAN DELUXE -->
+    <div class="card">
+        <h2>CUBAN (DELUXE) <span class="tag">Android 🟢</span></h2>
+        <div class="row">
+            <span>3 días</span>
+            <span class="price">5 USD</span>
+        </div>
+        <div class="row">
+            <span>15 días</span>
+            <span class="price">11 USD</span>
+        </div>
+        <div class="row">
+            <span>30 días</span>
+            <span class="price">18 USD</span>
+        </div>
+    </div>
+
+    <!-- CUBAN MODS -->
+    <div class="card">
+        <h2>CUBAN MODS <span class="tag">Android 🟢</span></h2>
+        <div class="row">
+            <span>1 día</span>
+            <span class="price">3 USD</span>
+        </div>
+        <div class="row">
+            <span>7 días</span>
+            <span class="price">5 USD</span>
+        </div>
+        <div class="row">
+            <span>15 días</span>
+            <span class="price">9 USD</span>
+        </div>
+        <div class="row">
+            <span>30 días</span>
+            <span class="price">13 USD</span>
+        </div>
+    </div>
+
+    <!-- PROXY CUBAN IOS -->
+    <div class="card">
+        <h2>Proxy cuabn iOS <span class="tag">iPhone 🟢</span></h2>
+        <div class="row">
+            <span>1 día</span>
+            <span class="price">3 USD</span>
+        </div>
+        <div class="row">
+            <span>7 días</span>
+            <span class="price">6 USD</span>
+        </div>
+        <div class="row">
+            <span>30 días</span>
+            <span class="price">16 USD</span>
+        </div>
+    </div>
+
+    <!-- PATO TEAM -->
+    <div class="card">
+        <h2>Pato team 🦆 <span class="tag">Android 🟢</span></h2>
+        <div class="row">
+            <span>7 días</span>
+            <span class="price">6 USD</span>
+        </div>
+        <div class="row">
+            <span>15 días</span>
+            <span class="price">9 USD</span>
+        </div>
+        <div class="row">
+            <span>30 días</span>
+            <span class="price">14 USD</span>
+        </div>
+    </div>
+
+</body>
+</html>
